@@ -7,14 +7,14 @@ export * from './activity'
 
 
 // personal info
-export const name = 'Corey Chiu'
+export const name = '高铭哲'
 export const headline = 'Software engineer, Full-Stack web developer, and indie hacker.'
-export const introduction = 'I’m Corey, a software engineer based in Shenzhen, China. I like coding, and building interesting things'
+export const introduction = '我是高铭哲，一名软件工程师。我喜欢编程，喜欢创造有趣的事物。'
 export const email = 'xxx@gmail.com'
 export const githubUsername = 'iamcorey'
 
 // about page
-export const aboutMeHeadline = "I'm Corey Chiu, a software engineer based in Shenzhen, China."
+export const aboutMeHeadline = "你好，我是高铭哲，一名软件工程师。"
 export const aboutParagraphs = [
   "I love coding. I learned programming when I in college. I wrote my first program in Java when I was 18.",
   "I have a lot of hobbies, such as travelling, photography, watching movies, music and so on.",
@@ -98,6 +98,3 @@ export const techIcons = [
   "apple",
   "wechat"
 ];
-
-
-
