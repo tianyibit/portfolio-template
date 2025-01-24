@@ -1,64 +1,42 @@
 import { Card } from '@/components/shared/Card'
-import { useId } from 'react'
-import { ChangelogItemType, changelogList } from '@/config/infoConfig'
-
-function ChangelogSection({
-  date,
-  children,
-}: {
-  date: string
-  children: React.ReactNode
-}) {
-  let id = useId()
-
-  return (
-    <section
-      aria-labelledby={id}
-      className="md:border-l md:border-zinc-100 md:pl-6 md:dark:border-zinc-700/40"
-    >
-      <div className="grid max-w-3xl grid-cols-1 items-baseline gap-y-8 md:grid-cols-4">
-        <h2
-          id={id}
-          className="text-sm font-semibold text-zinc-800 dark:text-zinc-100"
-        >
-          {date}
-        </h2>
-        <div className="md:col-span-3">{children}</div>
-      </div>
-    </section>
-  )
-}
+import { ChangelogItemType, changelogList } from '@/config/changelog'
 
 function ChangelogItem({
-  title,
+  version,
+  date,
   description,
-}: {
-  title: string
-  description: string
-}) {
+}: ChangelogItemType) {
   return (
-    <Card as="li">
-      <Card.Title as="h3">
-        {title}
-      </Card.Title>
-      <Card.Description>{description}</Card.Description>
-    </Card>
+    <article className="group relative flex flex-col items-start">
+      <div className="relative z-10 flex items-center gap-4 pl-3.5">
+        <div>
+          <time className="text-sm text-zinc-500 dark:text-zinc-400">
+            {date}
+          </time>
+          <h2 className="text-base font-semibold tracking-tight text-zinc-800 dark:text-zinc-100">
+            v{version}
+          </h2>
+        </div>
+      </div>
+      <p className="relative z-10 mt-4 text-sm text-zinc-600 dark:text-zinc-400 pl-10">
+        {description}
+      </p>
+      <div className="relative">
+        <div className="absolute -inset-x-4 -inset-y-6 z-0 scale-95 bg-zinc-50 opacity-0 transition dark:bg-zinc-800/50 sm:-inset-x-6 sm:rounded-2xl" />
+        <div className="absolute -inset-x-4 -inset-y-6 z-0 scale-95 bg-zinc-50 opacity-0 transition dark:bg-zinc-800/50 sm:-inset-x-6 sm:rounded-2xl" />
+      </div>
+    </article>
   )
 }
 
 export default function ChangelogBlock() {
   return (
-    <>
-      {changelogList.map((item: ChangelogItemType, index) => (
-        <ChangelogSection date={item.date} key={index}>
-          {item.content.map((content: { title: string, description: string }, index2) => (
-            <ChangelogItem
-              title={content.title}
-              description={content.description}
-              key={index2}
-            />
-          ))}
-        </ChangelogSection>
-      ))}
-    </>)
+    <div className="md:border-l md:border-zinc-100 md:pl-6 md:dark:border-zinc-700/40">
+      <div className="flex max-w-3xl flex-col space-y-16">
+        {changelogList.map((item, index) => (
+          <ChangelogItem key={index} {...item} />
+        ))}
+      </div>
+    </div>
+  )
 }
