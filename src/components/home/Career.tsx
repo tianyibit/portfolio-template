@@ -26,9 +26,9 @@ function CareerItem({ careerItem }: { careerItem: CareerItemType }) {
         <dt className="sr-only">Date</dt>
         <dd
           className="ml-auto text-xs text-muted-foreground"
-          aria-label={`${careerItem.start} until ${careerItem.end}`}
+          aria-label={`${careerItem.period.start} until ${careerItem.period.end}`}
         >
-          {careerItem.start} - {careerItem.end}
+          {careerItem.period.start} - {careerItem.period.end}
         </dd>
       </dl>
     </li>
