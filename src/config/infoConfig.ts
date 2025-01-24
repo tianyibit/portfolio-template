@@ -9,7 +9,7 @@ export * from './career'
 export const name = '高铭哲'
 export const headline = 'Software engineer, Full-Stack web developer, and indie hacker.'
 export const introduction = '我是高铭哲，一名软件工程师。我喜欢编程，喜欢创造有趣的事物。'
-export const email = 'xxx@gmail.com'
+export const email = 'gaomzbit@163.com'
 export const githubUsername = 'iamcorey'
 
 // about page
@@ -36,39 +36,24 @@ export type SocialLinkType = {
 
 export const socialLinks: Array<SocialLinkType> = [
   {
-    name: 'X',
-    icon: 'x',
-    href: 'https://x.com/realcoreychiu'
-  },
-  {
-    name: 'Bsky',
-    icon: 'bsky',
-    href: 'https://bsky.app/profile/coreychiu.com'
+    name: 'Wechat',
+    icon: 'wechat',
+    href: 'https://mp.weixin.qq.com/s/8pzAgdsYw27EaJSFS1FXiA'
   },
   {
     name: 'Jike',
     icon: 'pill',
-    href: 'https://okjk.co/P7c1zU'
+    href: 'https://okjk.co/y5uT4m'
+  },
+  {
+    name: 'X',
+    icon: 'x',
+    href: 'https://x.com/tianyibit'
   },
   {
     name: 'Github',
     icon: 'github',
-    href: 'https://github.com/iamcorey'
-  },
-  {
-    name: 'Wechat',
-    icon: 'wechat',
-    href: 'https://mp.weixin.qq.com/s/DxnRgqNfgzXIhqj6w_x0dQ'
-  },
-  {
-    name: 'Discord',
-    icon: 'discord',
-    href: 'https://discord.gg/xTxRg3Ej'
-  },
-  {
-    name: 'Ko-fi',
-    icon: 'coffee',
-    href: 'https://ko-fi.com/coreychiu'
+    href: 'https://github.com/tianyibit'
   }
 ]
 
