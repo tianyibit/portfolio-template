@@ -12,7 +12,7 @@ function CareerItem({
 }: CareerItemType) {
   return (
     <article className="group relative flex flex-col items-start">
-      <div className="relative z-10 flex items-start gap-32">
+      <div className="relative z-10 flex items-start gap-4 md:gap-32">
         <div className="relative flex h-16 w-16 items-center justify-center rounded-md border border-zinc-200 bg-white p-2 dark:border-zinc-800 dark:bg-zinc-900">
           <Image
             src={logo}
@@ -23,11 +23,11 @@ function CareerItem({
           />
         </div>
         <div className="flex-1">
-          <div className="flex items-center">
+          <div className="flex flex-col md:flex-row md:items-center">
             <h2 className="text-base font-semibold tracking-tight text-zinc-800 dark:text-zinc-100">
               {company}
             </h2>
-            <span className="text-sm text-zinc-600 dark:text-zinc-400 ml-8">
+            <span className="text-sm text-zinc-600 dark:text-zinc-400 mt-1 md:mt-0 md:ml-8">
               {title}
             </span>
           </div>
