@@ -1,6 +1,6 @@
 // projects
-export const projectHeadLine = "What I've done and what I'm doing."
-export const projectIntro = "I've worked on a variety of projects, from simple websites to complex web applications. And many of them are open-source. Here are a few of my favorites."
+export const projectHeadLine = "我的一些小项目"
+export const projectIntro = "基本是投行相关，有知识库，也有SaaS小工具等，最近在努力学习AI coding"
 
 export type ProjectItemType = {
     name: string

@@ -10,7 +10,7 @@ export const name = '高铭哲'
 export const headline = '投行业务、投行科技博主、产品经理、AI全栈工程师'
 export const introduction = 'Don\'t commet, just create.'
 export const email = 'gaomzbit@163.com'
-export const githubUsername = 'iamcorey'
+export const githubUsername = 'tianyibit'
 
 // about page
 export const aboutMeHeadline = "你好，我是高铭哲，一名软件工程师。"
@@ -22,8 +22,8 @@ export const aboutParagraphs = [
 
 
 // blog
-export const blogHeadLine = "What I've thinking about."
-export const blogIntro = "I've written something about AI, programming and life."
+export const blogHeadLine = "我的原创文章"
+export const blogIntro = "主要是关于投行科技、AI、我的生活"
 
 
 // social links
