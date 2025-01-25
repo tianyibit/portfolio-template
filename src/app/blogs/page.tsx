@@ -24,7 +24,7 @@ function Blog({ blog }: { blog: BlogType }) {
           {formatDate(blog.date)}
         </Card.Eyebrow>
         <Card.Description>{blog.description}</Card.Description>
-        <Card.Cta>Read blog</Card.Cta>
+        <Card.Cta>阅读</Card.Cta>
       </Card>
       <Card.Eyebrow
         as="time"
