@@ -19,73 +19,26 @@ export type ProjectItemType = {
   // projects 
   export const projects: Array<ProjectItemType> = [
     {
-      name: 'GitHub Cards',
+      name: '公众号「投行百宝箱」',
       description:
-        'Showcase your GitHub contributions into stunning visual cards.',
-      link: { href: 'github.cards', label: 'GitHub Cards' },
-      category: ['Website'],
-      techStack: ['Next.js', 'TailwindCSS', 'Shadcn/UI'],
-      tags: ['Visual Cards', 'GitHub Contribution Cards']
+        '专注于投行科技、法律科技、审计科技',
+      link: { href: 'mp.weixin.qq.com/s/8pzAgdsYw27EaJSFS1FXiA', label: '投行百宝箱' },
+      category: ['Website']
     },
     {
-      name: 'AI Best Tools',
+      name: '投行科技与数字化社群',
       description:
-        'Find the best AI tools in AIBest.tools',
-      link: { href: 'aibest.tools', label: 'AI Best Tools' },
-      logo: '/images/icon/aibesttools.png',
-      category: ['Website'],
-      techStack: ['Next.js', 'TailwindCSS', 'Shadcn/UI'],
-      tags: ['AI', 'Tools Directory']
+        '全市场唯一以投行科技为主题的社群，覆盖券商投行IT产研、三方投行IT厂商',
+      link: { href: 'mp.weixin.qq.com/s/-6seLiiPdTJVzgbdk0PqYA', label: '投行科技社群' },
+      category: ['Website']
     },
     {
-      name: 'Best Directories',
+      name: 'IBbrain',
       description:
-        'Your ultimate directory of directories.',
-      link: { href: 'bestdirectories.org', label: 'Best Directories' },
-      logo: '/images/icon/bestdirectories.png',
+        '针对投行、律师、会计师的尽调文件采集工具，开发中',
+      link: { href: 'ibbrain.com', label: 'IBbrain' },
       category: ['Website'],
-      techStack: ['Next.js', 'TailwindCSS', 'Shadcn/UI'],
-      tags: ['Directory of Directories']
-    },
-    {
-      name: 'User Growth',
-      description:
-        'Boost Your business growth with UserGrowth.link',
-      link: { href: 'usergrowth.link', label: 'User Growth' },
-      logo: '/images/icon/usergrowth.ico',
-      category: ['Website'],
-      techStack: ['Next.js', 'TailwindCSS', 'Shadcn/UI'],
-      tags: ['User Growth', 'Marketing', 'SEO']
-    },
-    {
-      name: 'Dev Toolset',
-      description:
-        'Open-source database-free tools directory.',
-      link: { href: 'devtoolset.net', label: 'Dev Toolset' },
-      logo: '/images/icon/devtoolset.png',
-      category: ['Website'],
-      techStack: ['Next.js', 'TailwindCSS', 'Shadcn/UI'],
-      tags: ['Open Source', 'Database-Free', 'Tools Directory']
-    },
-    {
-      name: 'Domain Score',
-      description:
-        'Ultimate AI-Powered tool for domain scoring and evaluation',
-      link: { href: 'domainscore.ai', label: 'Domain Score' },
-      logo: '/images/icon/domainscore.png',
-      category: ['Website'],
-      techStack: ['Next.js', 'TailwindCSS', 'Shadcn/UI'],
-      tags: ['Domain', 'AI', 'SEO']
-    },
-    {
-      name: 'MagicBox Tools',
-      description:
-        'Find the best AI tools in MagicBox.tools',
-      link: { href: 'magicbox.tools', label: 'MagicBox Tools' },
-      logo: '/images/icon/magicbox.png',
-      category: ['Website'],
-      techStack: ['Next.js', 'TailwindCSS', 'Shadcn/UI'],
-      tags: ['AI', 'Tools Directory']
+  
     },
   ]
   
