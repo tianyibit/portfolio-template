@@ -7,8 +7,8 @@ export * from './career'
 
 // personal info
 export const name = '高铭哲'
-export const headline = 'Software engineer, Full-Stack web developer, and indie hacker.'
-export const introduction = '我是高铭哲，一名软件工程师。我喜欢编程，喜欢创造有趣的事物。'
+export const headline = '投行业务、投行科技博主、产品经理、AI全栈工程师'
+export const introduction = 'Don\'t commet, just create.'
 export const email = 'gaomzbit@163.com'
 export const githubUsername = 'iamcorey'
 

@@ -1,6 +1,6 @@
 // friends
-export const friendsHeadLine = "Corey' friends"
-export const friendsIntro = "Meet some interesting friends."
+export const friendsHeadLine = "高铭哲的朋友们"
+export const friendsIntro = "想上链接的朋友们，可以私信我"
 
 
 // friends
@@ -13,7 +13,7 @@ export type FriendItemType = {
 
 export const friends: Array<FriendItemType> = [
   {
-    name: 'Corey Chiu',
-    link: { href: 'https://coreychiu.com' },
+    name: '待补充',
+    link: { href: 'https://gmz666.com' },
   },
 ]
