@@ -20,7 +20,6 @@ export default async function Home() {
             <p className="mt-6 text-base text-muted-foreground">
               {introduction}
             </p>
-            <SocialLinks className='md:mt-24'/>
           </div>
           <div className="relative flex size-full items-center justify-center overflow-hidden w-full px-20 md:px-0 md:w-2/3 ml-auto md:mr-8">
             <IconCloud iconSlugs={techIcons} />
