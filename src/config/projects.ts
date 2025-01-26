@@ -33,10 +33,10 @@ export type ProjectItemType = {
       category: ['Website']
     },
     {
-      name: 'IBbrain',
+      name: '投行知识库',
       description:
-        '针对投行、律师、会计师的尽调文件采集工具，开发中',
-      link: { href: 'ibbrain.com', label: 'IBbrain' },
+        '希望在这里您能找到关于投行的一切（法规、案例、尽调方法、模板、投行科技与数字化等），并能将所有信息实现有效关联',
+      link: { href: 'openib24.feishu.cn/wiki/VIIgwhWW8iZgz9kKjjRcEharnwN?fromScene=spaceOverview', label: '知识库' },
       category: ['Website'],
   
     },

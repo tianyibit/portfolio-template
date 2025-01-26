@@ -8,7 +8,7 @@ export * from './career'
 // personal info
 export const name = '高铭哲'
 export const headline = '投行业务、投行科技博主、产品经理、AI全栈工程师'
-export const introduction = 'Don\'t commet, just create.'
+export const introduction = '用了30年才找到人生方向，目前在努力实现梦想\nDon\'t commet, just create.'
 export const email = 'gaomzbit@163.com'
 export const githubUsername = 'tianyibit'
 
